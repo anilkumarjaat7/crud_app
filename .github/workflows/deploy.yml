@@ -16,13 +16,14 @@ jobs:
 
       - name: Create deployment archive
         run: |
-          tar -czf deploy.tar.gz \
+          tar -czf /tmp/deploy.tar.gz \
             --exclude=.git \
             --exclude=.github \
             --exclude=frontend/node_modules \
             --exclude=frontend/.next \
             --exclude=backend/target \
             .
+          cp /tmp/deploy.tar.gz deploy.tar.gz
 
       - name: Copy project to EC2
         uses: appleboy/scp-action@v1
