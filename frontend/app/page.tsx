@@ -102,8 +102,12 @@ export default function Home() {
       <section className="todo-card">
         <header className="card-header">
           <div>
-            <p className="eyebrow">MY WORKSPACE</p>
-            <h1>Task Manager</h1>
+            <p className="eyebrow">TASK WORKSPACE</p>
+            <h1>Plan. Track. Finish.</h1>
+            <p className="deployment-badge">
+              <span aria-hidden="true"></span>
+              GitHub Actions CI/CD verified
+            </p>
           </div>
           <div className="task-count">{tasks.length}</div>
         </header>

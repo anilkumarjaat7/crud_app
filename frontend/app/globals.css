@@ -66,9 +66,31 @@ button {
 
 .card-header h1 {
   margin: 0;
-  font-size: 32px;
+  font-size: 34px;
   line-height: 1;
   letter-spacing: -0.04em;
+}
+
+.deployment-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  margin: 12px 0 0;
+  border: 1px solid #cfe9da;
+  border-radius: 999px;
+  color: #23744a;
+  background: #f1fbf6;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.deployment-badge span {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #27a467;
+  box-shadow: 0 0 0 4px rgba(39, 164, 103, 0.12);
 }
 
 .task-count {
