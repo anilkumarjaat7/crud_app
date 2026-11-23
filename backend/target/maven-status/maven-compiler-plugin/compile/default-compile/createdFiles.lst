@@ -1,0 +1,6 @@
+com\taskapp\task\TaskRequest.class
+com\taskapp\task\TaskController.class
+com\taskapp\task\TaskNotFoundException.class
+com\taskapp\task\TaskRepository.class
+com\taskapp\task\Task.class
+com\taskapp\TaskBackendApplication.class
